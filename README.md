@@ -3,57 +3,56 @@ mozilla-addon-fii
 
 Addon that adds the PSC FII Certificate to the Firefox trusted root certificate store
 
-
 ```text
 Certificate:
     Data:
         Version: 3 (0x2)
-        Serial Number: 11 (0xb)
+        Serial Number: 13 (0xd)
         Signature Algorithm: sha256WithRSAEncryption
         Issuer: CN=Autoridad de Certificacion Raiz del Estado Venezolano, C=VE, L=Caracas, ST=Distrito Capital, O=Sistema Nacional de Certificacion Electronica, OU=Superintendencia de Servicios de Certificacion Electronica/emailAddress=acraiz@suscerte.gob.ve
         Validity
-            Not Before: Dec 28 16:51:00 2010 GMT
-            Not After : Dec 25 23:59:59 2020 GMT
-        Subject: emailAddress=contacto@procert.net.ve, L=Chacao, ST=Miranda, OU=Proveedor de Certificados PROCERT, O=Sistema Nacional de Certificacion Electronica, C=VE, CN=PSCProcert
+            Not Before: Jan 25 16:10:00 2011 GMT
+            Not After : Jan 22 23:59:59 2021 GMT
+        Subject: C=VE, ST=Miranda, L=Baruta, O=Sistema Nacional de Certificacion Electronica, OU=Fundacion Instituto de Ingenieria, CN=PSC Publico del MppCTII para el Estado Venezolano/emailAddress=admin-pki@fii.gob.ve
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
             RSA Public Key: (4096 bit)
                 Modulus (4096 bit):
-                    00:d5:b7:f4:a3:94:33:a1:46:a9:55:61:49:0d:a8:
-                    87:73:5e:91:2d:70:c1:06:1a:94:da:3d:ec:15:42:
-                    c1:f5:8c:ae:6a:17:f1:8a:ad:fc:80:95:ea:83:44:
-                    a2:5b:7a:55:ce:4f:a7:a5:d5:ba:b8:1f:a0:27:c0:
-                    50:53:3e:8d:b9:c0:0e:b8:15:dc:d6:6c:f8:9e:f8:
-                    04:25:df:80:8f:10:85:dd:7d:2f:7b:80:dd:57:00:
-                    64:23:f8:6e:c9:be:95:4f:e1:75:ec:e0:7e:5e:95:
-                    cd:b1:ef:be:7a:42:d8:c9:2c:d3:eb:1a:1a:22:8b:
-                    b7:7f:06:89:e5:3c:f5:12:c0:bb:d3:0b:99:5f:90:
-                    7c:8e:2d:2f:77:33:92:4a:21:46:a8:a9:08:ac:f1:
-                    f6:11:02:d9:95:16:9e:8d:2f:96:e6:02:dd:75:c2:
-                    14:2a:5a:d6:c9:7d:25:c2:c1:fc:aa:67:85:e2:ec:
-                    be:d1:7c:3c:fa:af:d5:6e:ff:53:41:d4:f5:32:38:
-                    b1:e2:5f:c4:f9:8e:10:ef:06:a9:02:89:ff:e3:0c:
-                    6e:97:e0:df:9d:db:21:d0:f4:3e:08:69:6c:d8:d4:
-                    e4:36:f8:83:b6:b2:36:8f:9c:ef:3a:37:16:7d:bf:
-                    a2:69:d7:3b:5b:72:d0:af:aa:3f:5c:66:93:ac:0a:
-                    22:61:b6:d2:a0:99:c8:54:93:5d:a8:b6:d1:bd:5d:
-                    0a:5e:77:94:a2:2d:c0:82:8e:bc:ca:03:2a:34:ae:
-                    73:f1:d4:b5:0c:bd:be:67:9b:54:eb:e1:fa:a0:5a:
-                    ec:38:7e:3e:c1:cc:a2:c7:44:31:75:ea:3f:e5:07:
-                    d2:ab:a1:25:96:f6:e6:e4:a0:5d:37:18:39:61:00:
-                    33:5d:46:d4:00:c4:b4:ca:3c:f1:a2:a3:3e:f3:3a:
-                    ff:69:30:2e:40:dd:f6:9f:9c:26:c9:96:37:ad:e7:
-                    39:a2:bf:ea:69:db:55:22:95:53:2a:94:b5:df:ad:
-                    16:38:81:75:66:e3:c7:2c:1b:93:9c:aa:8c:a3:ca:
-                    d9:6c:3c:17:6d:9c:dc:7c:53:e0:20:27:43:36:f9:
-                    12:e1:3c:5c:bd:66:bf:a2:69:23:38:b8:99:60:99:
-                    0e:56:53:3a:9c:7e:14:8c:b0:06:6f:f1:86:76:90:
-                    af:fd:af:fe:90:c6:8f:9f:7f:8b:92:23:9c:e7:15:
-                    76:8f:d5:8b:94:13:72:69:fb:2b:61:63:88:ef:e6:
-                    a4:5e:e6:a3:17:6a:58:47:cb:71:4f:14:0b:5e:c8:
-                    02:08:26:a2:cb:e9:af:6b:8a:19:c7:cb:14:56:f5:
-                    e1:da:b5:d9:fc:bf:73:38:da:f9:e7:af:6e:a4:37:
-                    e2:07:27
+                    00:ab:4e:2f:e9:52:b2:58:33:2e:ac:39:91:3c:a2:
+                    25:c6:b8:e2:a3:3c:a0:ed:ee:59:dd:75:cc:99:6c:
+                    aa:ce:72:36:50:17:2e:3f:79:07:49:a6:59:d2:a1:
+                    2b:f8:0f:53:29:2b:5e:8f:4d:61:23:82:85:f8:70:
+                    58:5c:3a:33:15:d9:3e:41:73:cc:bd:d1:0e:f2:40:
+                    af:af:6d:b3:1d:68:be:67:b1:6a:2e:69:34:54:d6:
+                    a7:8f:79:c1:97:7c:9c:45:7d:df:01:04:a0:2f:68:
+                    92:21:da:dc:ea:e9:b3:ea:2f:12:e9:79:eb:a9:ba:
+                    cd:74:dc:8c:13:cc:3c:23:92:b2:af:c8:5e:9a:9c:
+                    a4:4b:53:cf:6c:b6:25:13:02:b8:cb:e8:0a:04:d6:
+                    51:90:62:6e:a2:4d:fd:a9:d6:11:0c:56:5f:16:3c:
+                    7b:be:07:cd:c5:e3:91:14:c3:88:fb:a1:c4:aa:bf:
+                    28:75:a7:d3:95:ae:fe:e9:19:0d:bc:93:f9:e8:eb:
+                    72:0a:b5:1d:0a:1d:d4:94:5e:9d:6a:d6:af:30:0a:
+                    9b:d2:e6:21:52:1d:5c:b9:bd:88:7b:15:36:e7:3f:
+                    68:b3:b5:18:4d:45:62:87:02:ac:21:6f:ef:4b:a0:
+                    ed:e1:86:ad:80:e7:f1:43:dd:02:68:21:1e:96:58:
+                    c6:ff:8e:a7:97:6b:8a:a5:79:5a:8e:b4:40:34:36:
+                    d6:06:b4:5d:52:66:09:52:b9:9f:1e:51:65:43:0f:
+                    95:78:14:15:46:3c:41:b2:f2:55:40:36:64:1e:08:
+                    04:48:ea:29:a6:83:2f:03:7a:49:51:03:07:ac:d5:
+                    89:49:4e:a3:de:49:3d:2e:56:90:d6:02:56:ba:0e:
+                    07:2d:8d:4d:e5:ed:92:a4:42:7c:7c:c3:b2:0d:68:
+                    0f:a4:cd:55:1c:14:c5:44:43:35:02:1b:01:bb:91:
+                    11:98:0a:a9:e9:fa:80:10:4b:6b:bd:f0:f8:9a:d7:
+                    53:02:98:56:60:af:a9:68:6f:4d:1c:8b:57:47:27:
+                    4f:a2:44:16:1f:fa:fe:b7:46:e0:a2:27:c7:2b:85:
+                    6f:ba:78:ab:81:34:5d:a6:32:0b:78:54:ff:ae:de:
+                    61:f4:83:c5:71:36:7e:74:d1:2d:b2:c4:e0:36:3f:
+                    35:a0:f7:a7:c7:c7:70:e5:bf:c4:94:55:98:63:e8:
+                    59:95:5c:b5:98:aa:cf:60:3f:39:b1:f9:c1:96:94:
+                    68:21:a9:53:0d:0c:37:93:a3:1b:56:e8:f7:df:30:
+                    eb:f5:08:1c:d8:0c:09:ef:65:78:9e:eb:9c:5d:36:
+                    51:b2:58:43:fa:30:0a:2c:f9:dc:82:bf:6e:ed:a3:
+                    09:38:a7
                 Exponent: 65537 (0x10001)
         X509v3 extensions:
             X509v3 Basic Constraints: critical
@@ -61,7 +60,7 @@ Certificate:
             X509v3 Issuer Alternative Name: 
                 DNS:suscerte.gob.ve, othername:<unsupported>
             X509v3 Subject Key Identifier: 
-                41:0F:19:38:AA:99:7F:42:0B:A4:D7:27:98:54:A2:17:4C:2D:51:54
+                AA:94:98:5B:01:C8:17:18:50:28:B5:F6:E1:5F:FB:FC:89:5E:69:AE
             X509v3 Authority Key Identifier: 
                 keyid:AD:BB:22:1D:C6:E0:D2:01:A8:FD:76:50:52:93:ED:98:C1:4D:AE:D3
                 DirName:/CN=Autoridad de Certificacion Raiz del Estado Venezolano/C=VE/L=Caracas/ST=Distrito Capital/O=Sistema Nacional de Certificacion Electronica/OU=Superintendencia de Servicios de Certificacion Electronica/emailAddress=acraiz@suscerte.gob.ve
@@ -70,47 +69,48 @@ Certificate:
             X509v3 Key Usage: critical
                 Certificate Sign, CRL Sign
             X509v3 Subject Alternative Name: 
-                DNS:procert.net.ve, othername:<unsupported>, othername:<unsupported>
+                DNS:150.187.108.110, othername:<unsupported>, othername:<unsupported>
             X509v3 CRL Distribution Points: 
                 URI:http://www.suscerte.gob.ve/lcr/CERTIFICADO-RAIZ-SHA384CRLDER.crl
                 URI:ldap://acraiz.suscerte.gob.ve
 
             Authority Information Access: 
-                OCSP - URI:http://ocsp.suscerte.gob.ve
+                OCSP - URI:http://ocsp.acraiz.suscerte.gob.ve
 
             X509v3 Certificate Policies: 
                 Policy: 2.16.862.3.1.2
                   CPS: http://www.suscerte.gob.ve/dpc
 
     Signature Algorithm: sha256WithRSAEncryption
-        2b:59:eb:22:99:bb:84:aa:4f:de:90:c6:d1:86:71:23:9e:4b:
-        03:91:47:70:bb:c0:92:60:ec:e0:d4:e7:6d:c6:d3:ed:67:83:
-        77:52:d5:f2:e5:77:a7:36:b2:e3:54:be:d9:bb:0a:9b:11:ef:
-        61:f4:c6:99:33:99:f5:af:00:39:8d:83:bf:a6:bd:35:7e:2c:
-        5c:31:34:6f:6c:db:f3:64:01:98:aa:94:2c:41:dd:15:86:ca:
-        6b:29:4e:16:c0:49:fc:d7:83:48:13:07:51:84:31:52:88:bb:
-        86:17:c7:6b:2f:8a:20:ad:c5:0b:8f:70:3e:2a:bb:1b:71:8f:
-        b9:a4:a0:fd:d8:95:d9:af:59:bf:25:2b:98:e9:63:93:2f:60:
-        1e:c4:aa:f8:77:f5:8b:6c:2f:ed:7e:2e:b5:4f:40:0d:ee:bc:
-        57:77:e7:d9:b6:d4:3f:95:27:3a:20:d5:e5:ae:ab:6c:35:9f:
-        c1:a1:1d:59:dc:84:81:ee:4d:07:e2:48:b6:9e:4b:95:2d:41:
-        b1:e1:e8:de:7e:2f:05:1e:68:ee:bf:bb:90:65:3a:c8:ee:ea:
-        b1:18:37:1c:62:93:a4:a0:31:ec:71:6c:91:e6:a4:79:89:5a:
-        14:a7:14:50:05:4c:a4:00:57:30:2c:c1:b5:61:96:dc:3e:1e:
-        84:af:39:42:cf:e5:d0:2c:b1:24:bc:df:40:c3:ed:7f:63:4a:
-        bd:e1:4f:12:64:86:95:f3:b0:e7:c8:b7:e1:53:bd:92:e6:f3:
-        0c:96:b9:eb:e8:e6:92:ed:a7:81:09:14:0b:fc:95:7a:cf:8f:
-        d6:34:4f:36:12:dc:5e:d1:34:75:c6:46:80:2f:95:04:8c:c7:
-        86:c4:a8:26:89:a8:3f:19:9b:81:bb:51:a4:4a:86:ab:0b:11:
-        0f:b1:ae:63:53:6d:28:ea:dd:33:56:38:1c:b2:ad:80:d3:d7:
-        72:bd:9a:6c:99:63:e8:00:bb:41:76:05:b7:5b:99:18:8a:c3:
-        b8:12:5c:56:cf:56:0c:7d:e8:e2:cf:ed:bc:74:47:fb:ee:d3:
-        17:4e:22:4f:56:ff:50:f3:2e:e6:39:a6:82:d6:71:ca:de:b7:
-        d5:ba:68:08:ed:99:cc:fd:a2:92:cb:69:b8:9d:f9:0a:a4:a6:
-        3e:4f:93:28:2a:61:6c:07:26:00:ff:96:5f:68:86:b8:b8:ce:
-        ca:55:e0:ab:b1:3d:7f:98:d7:33:0e:5a:3d:d8:78:c2:c4:60:
-        2f:c7:62:f0:61:91:d2:38:b0:f6:9e:55:db:40:80:05:12:33:
-        ce:1d:92:9b:d1:69:b3:ff:bf:f1:92:0a:61:35:3f:dd:fe:86:
-        f4:bc:e0:1a:71:b3:62:a6
-
+        21:9d:21:db:63:15:bd:d1:0e:58:6f:3d:e1:12:3a:f8:63:dc:
+        96:7f:9f:96:b1:4f:2d:82:9b:02:1c:fe:8b:e4:d9:60:3c:2b:
+        e8:98:40:02:90:cb:50:d1:47:f4:50:46:1b:e0:46:1e:9d:87:
+        5f:94:89:32:69:ae:e0:9f:fc:0e:60:dd:eb:63:0e:67:ab:ff:
+        b8:e4:68:60:9a:4c:14:cf:d3:32:74:6b:52:f2:9e:1d:0f:71:
+        a3:2c:30:1d:6e:6b:5d:d4:77:26:f0:2e:2f:72:db:1c:7c:1e:
+        d3:47:28:9e:33:7a:b3:f6:99:4a:c4:b4:c0:b9:02:b3:c1:2b:
+        33:e9:d5:1f:38:55:85:3b:2e:08:c2:f8:d4:bb:61:24:40:27:
+        31:44:f5:b3:af:af:cb:47:48:0e:41:50:15:c3:d6:09:c4:2c:
+        cb:46:40:36:78:1c:5b:6b:dc:6e:b8:2b:30:49:53:94:88:3f:
+        b2:09:ae:58:87:50:2b:c9:5b:28:4b:c1:92:b8:51:b8:9f:b3:
+        3a:20:a0:67:b7:e2:69:d4:60:d2:53:6c:3b:c8:19:b5:61:7b:
+        69:8e:af:06:1e:23:b2:45:9a:97:b4:b4:6a:ee:d8:c5:e8:5a:
+        13:ec:3b:99:0e:40:a8:33:fb:94:db:60:61:77:d5:ab:52:c6:
+        e4:75:d9:f2:52:91:47:31:27:c6:13:cc:66:7c:db:e2:65:53:
+        c3:16:a2:b0:dd:ee:26:db:1c:c1:92:ff:88:2b:5e:51:43:0d:
+        a8:f8:7f:9a:38:41:c4:85:14:5d:1f:b5:12:7d:7a:8f:04:5d:
+        cc:89:50:62:d2:ce:79:c1:c1:be:f7:43:4e:16:05:7c:e0:f3:
+        78:28:f5:83:b9:df:90:e9:1d:35:af:bf:89:63:b0:e9:59:50:
+        e9:13:2c:0a:63:61:97:93:cb:cd:4f:b6:fc:46:46:26:27:a4:
+        6e:30:2a:fa:9a:9b:c0:f9:ea:dc:85:a1:e3:36:2b:54:70:99:
+        be:44:97:99:6c:3e:c2:14:bd:2b:d9:7a:88:16:8c:a4:a4:d0:
+        91:20:32:91:c0:43:3a:b8:f1:13:3e:cf:48:56:d7:e9:50:04:
+        26:73:eb:95:b4:e8:28:18:50:be:e0:3c:9a:54:e1:22:18:8c:
+        c1:87:17:83:f8:ae:09:11:63:5f:81:3d:99:5a:9a:74:95:10:
+        60:1a:9d:d7:38:2e:98:e0:4f:48:7b:14:05:48:ad:8b:76:25:
+        ed:cd:3d:af:4e:71:c7:46:b8:d8:bb:7b:30:6e:df:9c:9f:b8:
+        2c:18:90:df:ff:f0:a8:55:36:2d:a5:42:4d:4f:cd:e2:71:8c:
+        cb:cd:fa:ac:e2:b6:ae:ce
+        
 ```
+
